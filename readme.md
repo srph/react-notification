@@ -1,6 +1,6 @@
 # React Notification [![npm version](https://img.shields.io/npm/v/@srph/react-notification.svg?style=flat-square)](https://npmjs.com/packages/@srph/react-notification) [![Build Status](https://img.shields.io/travis/srph/react-notification.svg?style=flat-square)](https://travis-ci.org/srph/react-notification?branch=master)
 
-Primitives to build your toast and growls.
+Primitives to build your growls and dreams.
 
 ## How It Works
 This library uses the render props pattern. You can read more about it [here](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce).
