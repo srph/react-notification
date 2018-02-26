@@ -29,10 +29,10 @@ test('it should add an item', () => {
   expect(Child.mock.calls[1][0].items.length).toEqual(1)
 })
 
-test('it should transform args to obj', () => {
+test('it should transform string arg to obj', () => {
   const Child = jest.fn(() => <div />)
   node = mount(<Notification>{Child}</Notification>)
-  notify({ text: 'Testterrr pogi' })
+  notify('Testterrr pogi')
   expect(Child.mock.calls[1][0].items[0].text).toEqual('Testterrr pogi')
 })
 
