@@ -5,9 +5,6 @@ Primitives to build your toast and growls.
 ## How It Works
 This library uses the render props pattern. You can read more about it [here](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce).
 
-## Why
-Secret.
-
 ## Installation
 ```bash
 npm install @srph/react-notification --save
