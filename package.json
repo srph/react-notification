@@ -35,13 +35,21 @@
     "babel-preset-react-app": "^3.0.1",
     "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.0.4",
-    "enzyme": "^2.9.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^20.0.4",
     "react": "^16.2.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.2.0",
-    "react-test-renderer": "^15.6.1",
+    "react-test-renderer": "^16.2.0",
     "webpack": "2.6.1"
+  },
+  "jest": {
+    "rootDir": "src",
+    "setupFiles": [
+      "./__tests__/shim.js",
+      "./__tests__/setup.js"
+    ]
   },
   "tags": [
     "react",
