@@ -17,8 +17,7 @@
     "url": "https://github.com/srph/react-notification"
   },
   "dependencies": {
-    "mitt": "^1.1.3",
-    "prop-types": "^15.5.10"
+    "mitt": "^1.1.3"
   },
   "peerDependencies": {
     "react": "^16.2.0",
