@@ -51,6 +51,8 @@ class App extends React.Component {
 export default App;
 ```
 
+> Note: Mount `Notification` on your root (aka topmost) component.
+
 ## API Documentation
 Here's a list of props you may use to customize the component for your use-case:
 
