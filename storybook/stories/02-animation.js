@@ -1,17 +1,26 @@
 import React, { Component } from 'react'
+import Transition from 'react-addons-css-transition-group'
 import {Notification, notify} from '../../src'
 
-class BasicToast extends Component {
+class AnimationToast extends Component {
   render() {
     return (
       <div>
-        <button onClick={() => notify({ text: 'Spawn something' })}>
-          Try me!
+        <button onClick={() => notify({ text: 'Spawn something really cool' })}>
+          Go, go!
         </button>
 
         <Notification>
           {({items, onClose}) => (
-            <div className='toast-float'>
+            <Transition
+              component='div'
+              className='toast-float'
+              transitionName={{
+                enter: '-enter',
+                leave: '-leave'
+              }}
+              transitionEnterTimeout={400}
+              transitionLeaveTimeout={400}>
               {items.map(item =>
                 <div className='item' key={item.id}>
                   {item.text}
@@ -20,7 +29,7 @@ class BasicToast extends Component {
                   </button>
                 </div>
               )}
-            </div>
+            </Transition>
           )}
         </Notification>
       </div>
@@ -28,4 +37,4 @@ class BasicToast extends Component {
   }
 }
 
-export default BasicToast
+export default AnimationToast
