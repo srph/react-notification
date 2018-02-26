@@ -60,6 +60,26 @@ Here's a list of props you may use to customize the component for your use-case:
 | items | `array` | Array containing the notifications. |
 | onClose | `function(id)` | Removes the specific notification. Expects the id of an item. |
 
+#### `items`
+An array containing an object with the following shape:
+```
+{
+  id: Number,
+  text: String,
+  timeout: Number
+}
+```
+
+### `notify(opts)`
+Used to add a add a new notification. Everything passed to notify is added to the item.
+
+| Parameter  | Type | Description |
+| ----- | ---- | ----------- |
+| `opts.text` | `string` (required) | The text of the notification. |
+| `opts.timeout` | `number` | Number of milliseconds before the toast is removed. Defaults to `10000` |
+
+> If you prefer, the form `notify(text)` (e.g., `notify('Hello')`) is a convenience helper which does the same thing as `notify({ text: 'Hello' })`
+
 ## Setup
 You can check the [demo](https://react-notification.kierb.com/), or build it yourself locally:
 
