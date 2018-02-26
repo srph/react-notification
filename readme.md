@@ -54,12 +54,11 @@ export default App;
 ## API Documentation
 Here's a list of props you may use to customize the component for your use-case:
 
+### `<Notification />` Render Props
 | Parameter  | Type | Description |
 | ----- | ---- | ----------- |
-| multiple | `boolean` | Enable multiple files to be selected. Defaults to `false`. |
-| accept | `string` | Files types you'd like to be selected. |
-| onFiles | `function(File file, string img)` (required) | Callback called when a file is selected. |
-| onFiles | `function(Array<File> files, Array<string> img)` (required) | Callback called when `multiple` is `true`. |
+| items | `array` | Array containing the notifications. |
+| onClose | `function(id)` | Removes the specific notification. Expects the id of an item. |
 
 ## Setup
 You can check the [demo](https://react-notification.kierb.com/), or build it yourself locally:
