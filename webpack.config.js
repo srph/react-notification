@@ -41,10 +41,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /prop-types/,
-        use: 'null-loader',
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
