@@ -58,7 +58,7 @@ Here's a list of props you may use to customize the component for your use-case:
 | Parameter  | Type | Description |
 | ----- | ---- | ----------- |
 | items | `array` (`<Item>`) | Array containing the notifications. |
-| onClose | `function(id)` | Removes the specific notification. Expects the id of an item. |
+| onClose | `function(id: Number)` | Removes the specific notification. Expects the id of an item. |
 
 #### `Item`
 ```js
