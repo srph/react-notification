@@ -33,6 +33,11 @@ export class Notification extends React.Component {
   }
 
   handleAdd = (opts) => {
+    // notify('Hi') -> notify({ text: 'Hi' })
+    if (typeof opts === 'string') {
+      opts = { text: opts }
+    }
+
     opts = {
       timeout: 10000,
       ...opts
