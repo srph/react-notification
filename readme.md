@@ -78,7 +78,7 @@ Used to add a add a new notification. Everything passed to notify is added to th
 | `opts.text` | `string` (required) | The text of the notification. |
 | `opts.timeout` | `number` | Number of milliseconds before the toast is removed. Defaults to `10000` |
 
-> If you prefer, the form `notify('Hello')` is the same as `notify({ text: 'Hello' })`.
+> You can do `notify('Hello')` which is the same as `notify({ text: 'Hello' })`.
 
 ## Setup
 You can check the [demo](https://react-notification.kierb.com/), or build it yourself locally:
