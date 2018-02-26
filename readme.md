@@ -69,7 +69,7 @@ Here's a list of props you may use to customize the component for your use-case:
 }
 ```
 
-### `notify(opts)`
+### `notify(opts: object)`
 Used to add a add a new notification. Everything passed to notify is added to the item.
 
 | Parameter  | Type | Description |
