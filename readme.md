@@ -38,7 +38,7 @@ class App extends React.Component {
             items.map(item => (
               <div className='item' key={item}>
                 {item.text}
-                <button onClick={onClose}>Close</button>
+                <button onClick={() => onClose(item.id)}>Close</button>
               </div>
             ))
           )}
