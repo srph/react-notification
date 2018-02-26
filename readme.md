@@ -57,12 +57,11 @@ Here's a list of props you may use to customize the component for your use-case:
 ### `<Notification />` Render Props
 | Parameter  | Type | Description |
 | ----- | ---- | ----------- |
-| items | `array` | Array containing the notifications. |
+| items | `array` (`<Item>`) | Array containing the notifications. |
 | onClose | `function(id)` | Removes the specific notification. Expects the id of an item. |
 
-#### `items`
-An array containing an object with the following shape:
-```
+#### `Item`
+```js
 {
   id: Number,
   text: String,
