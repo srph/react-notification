@@ -1,12 +1,10 @@
 # React Notification [![npm version](https://img.shields.io/npm/v/@srph/react-notification.svg?style=flat-square)](https://npmjs.com/package/@srph/react-notification) [![Build Status](https://img.shields.io/travis/srph/react-notification.svg?style=flat-square)](https://travis-ci.org/srph/react-notification?branch=master)
 
-Primitives to build your growls and dreams.
+This library provides you the *primitives* to create notifications like growl, snackbar, etc.
 
 [View examples](https://github.com/srph/react-notification/tree/master/storybook/stories) / [View demo](https://react-notification.kierb.com/)
 
 ## Why should I pick this library?
-
-This library provides you the primitives to create notifications like growl, snackbar, etc. But doesn't provide default styling out of the box.
 
 #### Pros
 - **Pick this up** if you're building a toast from scratch.
