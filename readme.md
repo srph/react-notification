@@ -7,7 +7,7 @@ This library provides you the *primitives* to create notifications like growl, s
 ## Why should I pick this library?
 
 #### Pros
-- **Pick this up** if you're building a toast from scratch.
+- **Pick this up** if you're building a notification from scratch.
 - **Pick this up** if you want maximum customizability.
 - **Pick this up** if you want a small implementation.
 
