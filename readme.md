@@ -9,9 +9,9 @@ This library provides you the *primitives* to create notifications like growl, s
 #### Pros
 - **Pick this up** if you're building a notification from scratch.
 - **Pick this up** if you want maximum customizability.
-- **Pick this up** if you want a small implementation.
+- **Pick this up** if you want a small implementation ([68 LOC](https://github.com/srph/react-notification/blob/master/src/index.js)).
 
-Being flexible means that you will spend time setting things up by yourself. Although, this library makes it painless.
+Being flexible means that you will spend time setting things up by yourself. Although, this library makes it painless ✨.
 
 #### Cons
 - **Pick something else** if you want styling out of the box.
