@@ -17,7 +17,7 @@ Being much more flexible means that you also have to spend time setting things u
 
 #### Cons
 - **Pick something else** if you want styling out of the box.
-- **Pick something else** if you prefer a more high-level implementation (like `type` or `placement`).
+- **Pick something else** if you prefer a high-level implementation (like `type` or `placement`).
 
 However, my counter arguments are that:
 - I think styling differs every organization, and customization is limiting or bloats a simple feature.
