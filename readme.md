@@ -11,15 +11,13 @@ This library provides you the *primitives* to create notifications like growl, s
 - **Pick this up** if you want maximum customizability.
 - **Pick this up** if you want a small implementation.
 
-Being much more flexible means that you also have to spend time setting things up by yourself. Although, it's simple for this case.
+Being flexible means that you will spend time setting things up by yourself. Although, this library makes it painless.
 
 #### Cons
 - **Pick something else** if you want styling out of the box.
 - **Pick something else** if you prefer a high-level implementation (like `type` or `placement`).
 
-However, my counter arguments are that:
-- I think styling differs every organization, and customization is limiting or bloats a simple feature.
-- I think high-level features like `type` (errors, success) and `placement` (rarely the case) are simple to achieve with this library.
+However, my counter arguments are that: 1 - styling differs every organization, and customization is limiting or bloats a simple feature; and 2 - I think high-level features like `type` (errors, success) and `placement` (rarely the case) are simple to achieve with this library.
 
 ## How It Works
 This library uses the render props pattern. You can read more about it [here](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce).
