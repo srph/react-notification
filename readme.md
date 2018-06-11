@@ -2,6 +2,25 @@
 
 Primitives to build your growls and dreams.
 
+[View examples](https://github.com/srph/react-notification/tree/master/storybook/stories) / [View demo](https://react-notification.kierb.com/)
+
+## Why should I pick this library?
+
+This library provides you the primitives to create notifications like growl, snackbar, etc. But doesn't provide default styling out of the box.
+
+### Pros
+- **Pick this up** if you're building a toast from scratch.
+- **Pick this up** if you want maximum customizability.
+- **Pick this up** if you want a small implementation.
+
+### Cons
+- **Pick something else** if you want styling out of the box.
+- **Pick something else** if you prefer a more high-level implementation (like `type` or `placement`).
+
+However, my counter arguments are that:
+- I think styling differs every organization, and customization is limiting or bloats a simple feature.
+- I think high-level features like `type` (errors, success) and `placement` (rarely the case) are simple to achieve with this library.
+
 ## How It Works
 This library uses the render props pattern. You can read more about it [here](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce).
 
@@ -52,6 +71,8 @@ export default App;
 ```
 
 > Note: Mount `Notification` on your root (aka topmost) component.
+
+[View examples](https://github.com/srph/react-notification/tree/master/storybook/stories) / [View demo](https://react-notification.kierb.com/)
 
 ## API Documentation
 Here's a list of props you may use to customize the component for your use-case:
