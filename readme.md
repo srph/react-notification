@@ -100,8 +100,8 @@ Used to spawn a new notification.
 
 > Tip: You can do `notify('Hello')` which is the same as `notify({ text: 'Hello' })`.
 
-## Setup
-You can check the [demo](https://react-notification.kierb.com/), or build it yourself locally:
+## Contributing
+Build it yourself locally:
 
 ```bash
 npm install
