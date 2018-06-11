@@ -1,4 +1,4 @@
-# React Notification [![npm version](https://img.shields.io/npm/v/@srph/react-notification.svg?style=flat-square)](https://npmjs.com/packages/@srph/react-notification) [![Build Status](https://img.shields.io/travis/srph/react-notification.svg?style=flat-square)](https://travis-ci.org/srph/react-notification?branch=master)
+# React Notification [![npm version](https://img.shields.io/npm/v/@srph/react-notification.svg?style=flat-square)](https://npmjs.com/package/@srph/react-notification) [![Build Status](https://img.shields.io/travis/srph/react-notification.svg?style=flat-square)](https://travis-ci.org/srph/react-notification?branch=master)
 
 Primitives to build your growls and dreams.
 
