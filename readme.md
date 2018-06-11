@@ -8,12 +8,14 @@ Primitives to build your growls and dreams.
 
 This library provides you the primitives to create notifications like growl, snackbar, etc. But doesn't provide default styling out of the box.
 
-### Pros
+#### Pros
 - **Pick this up** if you're building a toast from scratch.
 - **Pick this up** if you want maximum customizability.
 - **Pick this up** if you want a small implementation.
 
-### Cons
+Being much more flexible means that you also have to spend time setting things up by yourself. Although, it's simple for this case.
+
+#### Cons
 - **Pick something else** if you want styling out of the box.
 - **Pick something else** if you prefer a more high-level implementation (like `type` or `placement`).
 
